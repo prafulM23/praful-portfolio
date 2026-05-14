@@ -1,5 +1,7 @@
 "use client"
 
+import Link from "next/link";
+
 const About = () => {
     return (
         <>
@@ -87,9 +89,11 @@ const About = () => {
                                         </div>
 
                                         {/* Certificate Button */}
-                                        <button className="px-5 py-2 bg-cyan-500 hover:bg-cyan-600 hover:scale-105 rounded-xl font-medium transition-all duration-300 shadow-lg shadow-cyan-500/20">
-                                            View Certificate
-                                        </button>
+                                        <Link href={"https://drive.google.com/file/d/1qWmSbGHrhN5H3OcyjMZcWTO9NqtTL8-4/view?usp=drive_link"}>
+                                            <button className="px-5 py-2 bg-cyan-500 hover:bg-cyan-600 hover:scale-105 rounded-xl font-medium transition-all duration-300 shadow-lg shadow-cyan-500/20">
+                                                View Certificate
+                                            </button>
+                                        </Link>
 
                                     </div>
 
