@@ -45,7 +45,7 @@ const mernProjects = [
             "PostgreSQL",
             "JWT"
         ],
-        image: "/projects/nextauth.png",
+        image: "/projects/nextAuth.png",
         live: "https://next-auth-system-aww8.vercel.app/",
         code: "https://github.com/prafulM23/next-auth-system",
     },
