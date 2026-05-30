@@ -2,47 +2,82 @@
 
 const mernProjects = [
     {
-        title: "User Authentication System",
+        title: "MERN Authentication System",
         description:
-            "Secure authentication system with signup, login, JWT authentication, protected routes, and password encryption.",
-        tech: ["React.js", "Express.js", "MongoDB"],
-        image:
-            "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop",
+            "Full-stack authentication application featuring user registration, login, email OTP verification, JWT authentication, password reset, and protected routes.",
+        tech: [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "JWT",
+            "Nodemailer"
+        ],
+        image: "/projects/mernAuth.png",
         live: "https://authenticationsystum.netlify.app/",
-        code: "#",
+        code: "https://github.com/prafulM23/userAuthentication",
     },
+
     {
-        title: "Flipkart Clone",
+        title: "Flipkart Clone (MERN)",
         description:
-            "E-commerce website inspired by Flipkart with product listing, cart functionality, search, and responsive UI.",
-        tech: ["React.js", "Express.js", "MongoDB"],
-        image:
-            "https://images.unsplash.com/photo-1523475472560-d2df97ec485c?q=80&w=1200&auto=format&fit=crop",
+            "E-commerce web application with product catalog, cart management, search functionality, responsive UI, and backend API integration.",
+        tech: [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Axios"
+        ],
+        image: "/projects/flipkart.png",
         live: "https://ecommerce-flipcart-clone.netlify.app/",
-        code: "#",
+        code: "https://github.com/prafulM23/frontend-flipkart-clone",
+    },
+
+    {
+        title: "Next.js Authentication System",
+        description:
+            "Modern authentication system built with Next.js, TypeScript, Prisma, PostgreSQL, JWT authentication, protected routes, and secure user management.",
+        tech: [
+            "Next.js",
+            "TypeScript",
+            "Prisma",
+            "PostgreSQL",
+            "JWT"
+        ],
+        image: "/projects/nextauth.png",
+        live: "https://next-auth-system-aww8.vercel.app/",
+        code: "https://github.com/prafulM23/next-auth-system",
     },
 ];
 
 const frontendProjects = [
     {
-        title: "Daily News",
+        title: "News Portal App",
         description:
-            "News application that fetches real-time headlines using API with category filters and responsive design.",
-        tech: ["React.js", "CSS3"],
-        image:
-            "https://images.unsplash.com/photo-1495020689067-958852a7765e?q=80&w=1200&auto=format&fit=crop",
+            "Responsive news application that fetches real-time headlines through API integration with category-based filtering and search functionality.",
+        tech: [
+            "React.js",
+            "News API",
+            "CSS3"
+        ],
+        image: "/projects/news.png",
         live: "https://dailynews-portal.netlify.app",
-        code: "#",
+        code: "https://github.com/prafulM23/daily-news-project",
     },
+
     {
-        title: "Weather App",
+        title: "Weather Forecast App",
         description:
-            "Weather forecasting app that shows real-time temperature, humidity, and weather conditions using API integration.",
-        tech: ["React.js", "CSS3"],
-        image:
-            "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?q=80&w=1200&auto=format&fit=crop",
+            "Real-time weather application displaying temperature, humidity, wind speed, and weather conditions using external API integration.",
+        tech: [
+            "React.js",
+            "Weather API",
+            "CSS3"
+        ],
+        image: "/projects/weather.png",
         live: "https://stupendous-daffodil-a3c7ce.netlify.app/",
-        code: "#",
+        code: "https://github.com/prafulM23/weather-app",
     },
 ];
 
